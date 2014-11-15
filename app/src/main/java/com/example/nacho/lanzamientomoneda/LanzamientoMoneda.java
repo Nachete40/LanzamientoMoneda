@@ -36,7 +36,7 @@ Button button;
 
     public void apretarBoton(){
         Random random = new Random();
-        String [] almacen={"0","1"};
+        String [] almacen={"cara","cruz"};
         String busca = almacen[random.nextInt(almacen.length)];
         Toast.makeText(this, busca, Toast.LENGTH_LONG).show();
     }
